@@ -6,7 +6,7 @@
 # player == 'r' and pc == 's' or player == 'p' and pc == 'r' or player == 's' and pc == 'p'
 # you won!
 # any other case
-# you lose! pc won
+# you lose! pc won 
 import random
 # rock paper scissors
 CHOICES = {'r': 'Rock', 'p': 'Paper', 's': 'Scissors'}
