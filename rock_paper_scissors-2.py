@@ -1,5 +1,14 @@
+# start the game
+# ask the player to make a move (r, p, s)
+# pc would select a move randomly
+# check player won or lose or tie
+# pc == player --> tie
+# player == 'r' and pc == 's' or player == 'p' and pc == 'r' or player == 's' and pc == 'p'
+# you won!
+# any other case
+# you lose! pc won
 import random
-
+# rock paper scissors
 CHOICES = {'r': 'Rock', 'p': 'Paper', 's': 'Scissors'}
 
 def get_player_choice():
